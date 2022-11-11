@@ -28,6 +28,11 @@ img {
   border-radius: 5px;
 }
 
+#datetime-picker[disabled] {
+  outline: none;
+  cursor: default;
+}
+
 button[data-start] {
   display: block;
   margin-right: auto;
